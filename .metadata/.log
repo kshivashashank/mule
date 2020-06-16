@@ -34,3 +34,68 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\github(mule)
 
 !ENTRY org.mule.tooling.analytics 1 0 2020-06-16 19:31:30.152
 !MESSAGE Analytics enable property is set with true
+
+!ENTRY org.eclipse.jface 2 0 2020-06-16 20:42:10.861
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-06-16 20:42:10.861
+!MESSAGE A conflict occurred for CTRL+F:
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findReplace,Find and Replace,
+		Find and replace text,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@30012b46,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.mule.tooling.ui.dfl.contribution.commands.searchCommand,Find/Replace,
+		Find/Replace,
+		Category(org.mule.tooling.ui.commandcategory,org.mule.tooling.ui.commandcategory,Category for menu commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45d3c1ce,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.mule.tooling.contexts.mulePropertiesEditor,,,system)
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.mule.tooling.commands.focusSearchCommand,Focus Search Command,
+		Focus Search in Palette,
+		Category(org.mule.tooling.ui.commandcategory,org.mule.tooling.ui.commandcategory,Category for menu commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5a04e7ef,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.mule.tooling.contexts.mulePropertiesEditor,,,system)
+
+!ENTRY org.mule.tooling.core 1 0 2020-06-16 20:42:17.486
+!MESSAGE While generating classpath found that C:\Users\91949\Desktop\resume\AnypointStudio\plugins\org.mule.tooling.server.3.9.4.ee_6.6.4.201912092128\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2020-06-16 20:42:17.486
+!MESSAGE While generating classpath found that C:\Users\91949\Desktop\resume\AnypointStudio\plugins\org.mule.tooling.server.3.9.4.ee_6.6.4.201912092128\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2020-06-16 20:42:17.486
+!MESSAGE While generating classpath found that C:\Users\91949\Desktop\resume\AnypointStudio\plugins\org.mule.tooling.server.3.9.4.ee_6.6.4.201912092128\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2020-06-16 20:42:17.486
+!MESSAGE While generating classpath found that C:\Users\91949\Desktop\resume\AnypointStudio\plugins\org.mule.tooling.server.3.9.4.ee_6.6.4.201912092128\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2020-06-16 20:42:17.486
+!MESSAGE While generating classpath found that C:\Users\91949\Desktop\resume\AnypointStudio\plugins\org.mule.tooling.server.3.9.4.ee_6.6.4.201912092128\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2020-06-16 20:42:17.486
+!MESSAGE While generating classpath found that C:\Users\91949\Desktop\resume\AnypointStudio\plugins\org.mule.tooling.server.3.9.4.ee_6.6.4.201912092128\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.analytics 1 0 2020-06-16 20:42:24.046
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2020-06-16 20:42:24.046
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2020-06-16 20:42:25.876
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2020-06-16 20:42:25.876
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.core 2 0 2020-06-16 20:42:32.441
+!MESSAGE Authenticator was changed to class org.mule.tooling.utils.networking.ProxyAuthenticator. Restoring default authenticator to null
+
+!ENTRY org.mule.tooling.core 2 0 2020-06-16 20:42:32.441
+!MESSAGE Authenticator was changed to class org.mule.tooling.utils.networking.ProxyAuthenticator. Restoring default authenticator to null
